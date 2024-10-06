@@ -1,4 +1,4 @@
 
 #API keys
-amadeus_api = "AmCppB8sxAAhDFnrZehY2cAfbxSFke3w"
-amadeus_sec = "rVrCRvkoonvW4Rhj"
+amadeus_api = "4ZyrfyttoQeSzagn15GAD7W4FQBsXOln"
+amadeus_sec = "ql1rRUh1gJ4bTNGr"
