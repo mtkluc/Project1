@@ -13,8 +13,8 @@ This project analyzes flight data in the USA using the Amadeus API to determine 
 - Examine the impact of school holidays (December-January, Easter, Winter break) on delays.
 - Investigate the relationship between weather conditions and flight delays.
 - Identify popular destinations for local travelers.
-- Determine the cheapest flights to top destinations.
-
+- Determine the cheapest flights for the month of December 2024.
+- Find the busiest month of the year.
 **Data Collection**
 The project uses the Amadeus API to fetch flight data. The data is collected for various months throughout the year to analyze on-time performance and travel trends.
 
@@ -24,6 +24,7 @@ Seasonal Variations: The analysis identifies which months have the best on-time 
 Impact of Holidays: The project examines delays during significant holiday periods.
 Weather Influence: A weather API can be integrated to analyze its impact on flight delays.
 Local Travel Trends: The project analyzes popular destinations and flight costs for locals.
+
 
 **Team Contributions**
 This project is developed by:
