@@ -1,6 +1,11 @@
 # The "SMART" Project 
 – Strategic Minimization of Airfare and Risk of Travel delays
 
+## Team Contributions
+This project is developed by:
+
+Rajani, Mike and Mandeep
+
 ## Overview
 
 This project analyzes flight data using the Amadeus and Meteonomic APIs to determine the percentage of flights that leave on time, seasonal variations in flight performance, and the impact of external factors such as weather and school holidays. The project also identifies popular travel destinations for locals and the cheapest flights available for top destinations.
@@ -23,12 +28,6 @@ Seasonal Variations: The analysis identifies which months have the best on-time 
 Impact of Holidays: The project examines delays during significant holiday periods.
 Weather Influence: A weather API can be integrated to analyze its impact on flight delays.
 Local Travel Trends: The project analyzes popular destinations and flight costs for locals.
-
-
-## Team Contributions
-This project is developed by:
-
-Rajani, Mike and Mandeep
 
 ## Key Recommendations based on Data
 
