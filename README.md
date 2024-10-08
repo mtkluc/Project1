@@ -38,8 +38,7 @@ The project uses the Amadeus, Meteonomics, BTS APIs to fetch flight data. The da
 - Weather causes the most delays and cancellations in Spring and Summer in the USA.
 - Avoid travelling in July and May as weather patterns are unpredictable.
 - January and March are the busiest travel months, avoid if you don't like the crowds.
-- Flghts are cheapest at the start of December!
-- When flying to the USA - Fiji Airways was cheapest! (At least if you're from Sydney)
+- Flghts are cheapest at the start of December (Fiji Airways was cheapest! (At least if you're from Sydney))
 
 
 
