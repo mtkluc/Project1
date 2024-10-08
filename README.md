@@ -8,7 +8,7 @@ Rajani, Mike and Mandeep
 
 ## Overview
 
-This project analyzes flight data using the Amadeus and Meteonomic APIs to determine the percentage of flights that leave on time, seasonal variations in flight performance, and the impact of external factors such as weather and school holidays. The project also identifies popular travel destinations for locals and the cheapest flights available for top destinations.
+This project analyzes flight data using the Amadeus, Meteonomic and BTS APIs to determine the percentage of flights that leave on time, seasonal variations in flight performance, and the impact of external factors such as weather and school holidays. The project also identifies popular travel destinations for locals and the cheapest flights available for top destinations.
 
 ## Features
 
@@ -21,7 +21,7 @@ This project analyzes flight data using the Amadeus and Meteonomic APIs to deter
 - Find the busiest month of the year.
 
 ## Data Collection
-The project uses the Amadeus API to fetch flight data. The data is collected for various months throughout the year to analyze on-time performance and travel trends.
+The project uses the Amadeus, Meteonomics, BTS APIs to fetch flight data. The data is collected for various months throughout the year to analyze on-time performance and travel trends.
 
 ## Analysis
 - On-Time Performance: The percentage of flights that leave on time is calculated and displayed.
