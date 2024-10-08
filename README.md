@@ -39,6 +39,7 @@ Local Travel Trends: The project analyzes popular destinations and flight costs 
 - Avoid travelling in July and May as weather patterns are unpredictable.
 - January and March are the busiest travel months, avoid if you don't like the crowds.
 - Flghts are cheapest at the start of December!
+- When flying to the USA - Fiji Airways was cheapest! (At least if you're from Sydney)
 
 
 
