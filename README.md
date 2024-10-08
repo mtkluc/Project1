@@ -32,13 +32,13 @@ Rajani, Mike and Mandeep
 
 ## Key Recommendations based on Data
 
-Flights in the USA appear most efficient in Autumn, away from holidays.
-LAX appears to experience more delays than the other airports reviewed.
-Travelling like a local means travelling domestic!
-Weather causes the most delays and cancellations in Spring and Summer in the USA.
-Avoid travelling in July and May as weather patterns are unpredictable.
-January and March are the busiest travel months, avoid if you don't like the crowds.
-Flghts are cheapest at the start of December!
+- Flights in the USA appear most efficient in Autumn, away from holidays.
+- LAX appears to experience more delays than the other airports reviewed.
+- Travelling like a local means travelling domestic!
+- Weather causes the most delays and cancellations in Spring and Summer in the USA.
+- Avoid travelling in July and May as weather patterns are unpredictable.
+- January and March are the busiest travel months, avoid if you don't like the crowds.
+- Flghts are cheapest at the start of December!
 
 
 
