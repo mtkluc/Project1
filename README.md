@@ -19,7 +19,7 @@ This project analyzes flight data using the Amadeus and Meteonomic APIs to deter
 - Identify popular destinations for local travelers.
 - Determine the cheapest flights for the month of December 2024.
 - Find the busiest month of the year.
-- 
+
 ## Data Collection
 The project uses the Amadeus API to fetch flight data. The data is collected for various months throughout the year to analyze on-time performance and travel trends.
 
