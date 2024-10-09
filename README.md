@@ -92,10 +92,34 @@ New York and Chicago represented the most popular destinations. We had no data t
 
 Fig. Showing overall frequency of destinations from LAX/DEN and DFW.
 
+Chi-Square Test Analysis
+Chi-Square Statistic:
+The calculated Chi-Square statistic is 1757.86. This value indicates a substantial difference between the observed frequencies (actual data) and the expected frequencies (what we would expect if there was no association between the variables).
+P-Value:
+The P-value is 0.0000, which is significantly lower than the common significance level of 0.05. This indicates strong evidence against the null hypothesis.
+Degrees of Freedom:
+The degrees of freedom for this test are 80. This is calculated based on the number of categories (price ranges and airlines) in the contingency table.
+Interpretation
+Rejecting the Null Hypothesis:
+The conclusion from this analysis is to reject the null hypothesis. This suggests that there is a significant association between the price ranges of flights and the airlines operating on the Sydney to Los Angeles route in December 2024.
+Implications
+1.	Pricing Strategies: Airlines may have different pricing strategies that are influenced by various factors such as demand, competition, or service levels. Understanding these differences can help airlines optimize their pricing.
+2.	Travel Planning: For travellers, this information highlights that flight prices can vary significantly by airline within specific price ranges. This can assist in making informed decisions when selecting airlines based on budget preferences.
 
 ![Average_Flight_Price_Range_by_Airline](https://github.com/user-attachments/assets/64c6e7d8-b560-4924-ba16-491c9018f568)
+Flights from Sydney to Los Angeles (December 2024)
+Overview
+This analysis focuses on flight prices from Sydney (SYD) to Los Angeles (LAX) for December 2024. The goal is to understand flight availability and pricing trends, helping travellers make informed decisions.
+Key Findings
+•	Flight Availability:
+o	The program checks which days have flights available, helping travellers choose the best dates to fly.
+•	Airline Pricing:
+o	By comparing prices, travellers can see which airlines offer the best deals.
+
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
 ![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
+
+
 ![Air_Traffic_Scores_LAX_2018](https://github.com/user-attachments/assets/76a7025f-d966-4377-b3a9-b01ea979729b)
 
 In conclusion, travelling like a local means flying domestic. New York and Chicago may represent interesting destinations to visit. It is unclear why, but from someone who has only heard of pizza from both places, further data analysis may benefit from a food focus.
