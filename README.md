@@ -50,18 +50,47 @@ We are aware of the biases in the data, and aware that this data is much more re
 Over the course of the year, the AI predictive tool estimated that flights generally leave on time 70-80% of the time from the airports reviewed (LAX/DEN/DFW/MEL).
 
 ![mean_flights_ontime2](https://github.com/user-attachments/assets/be0d8c21-0d82-4ef6-b3f9-c853757b5770)
+
 Fig. showing mean estimated flights leaving on time for the year of 2025.
 
 ![flights_ontime_daily](https://github.com/user-attachments/assets/8bc2b58d-0431-41fa-b01e-0beb2431409f)
+
 Fig. flights leaving on time daily over 2025
 
 One-Way ANOVA analysis suggests that there is a significant difference between some of the pairs reviewed, indicating that there delays can be airport specific. 
 (F-statistic 101.32, p= 1.43 x e^-59)
 
-Furthermore, when grouped by airport and month, a heatmap reveals differences between the airports and performance by month. It is clear that LAX is predicted to have more delays in general than other airports. The reasons for this remain unclear, but given all three US airports analysed are large, it may reflect more challenging conditions when flying around LAX, or the airlines that provide a service at LAX. 
+Furthermore, when grouped by airport and month, a heatmap reveals differences between the airports and performance by month. It is clear that LAX is predicted to have more delays in general than other airports. The reasons for this remain unclear, but given all three US airports analysed are large, it may reflect more challenging conditions when flying around LAX, or the airlines that provide a service at LAX. Further analysis is recommended to review this, also I am unable to review the underlying model provided by Amadeus which may contain biases. 
+Specifically for flying periods with low delays, it would appear the period from February to April, and similarly September to November are predicted to experience less delays. This may be due to it being the shoulder season around major flying with less activity around the airport. We could not locate activity data for this period to confirm. 
 
 ![heatmap_flights_ontime](https://github.com/user-attachments/assets/112a3a12-62ca-4ef9-b2d0-3dab31c509ff)
 
+Fig. Heat map of flight delays by month and airports.
+
+To answer the question of holiday periods inducing delays, we segregated the data by month - labelling December, April and July as key holiday months. Analysis indicates that there is an increase in delays by up to 3.5% during the holiday periods depending on the airport. Interestingly LAX showed very little variation in predicted performance between these periods. Given the predictive model indicates a small difference, and the data being utilised to calculate this being small - it is hard to estimate versus the potential true population.
+
+![holiday_vs_non_holiday](https://github.com/user-attachments/assets/5ec07f10-64c2-45da-bbff-5cf5b402f26d)
+
+Fig. Holiday vs Non-Holiday period - flights leaving on time.
+
+![non_holiday_improvement](https://github.com/user-attachments/assets/a268964c-9129-47c5-860a-a707a165e3e4)
+
+Fig. Improvement in flights leaving on time in the non-holiday period vs holiday period.
+
+## Local flight destination popularity
+An ideal holiday often does include participating in local activities. We sought to identify the popular local destinations from our chosen airports; however the API chosen only had information from 2018 and a limited number of airports. It would appear the vast majority of flights leaving from the US airports are domestic flights, with only LON (London), CUN (Cancun) and GDL (Guardalajara) being the only international destinations making the top 5 visited destinations in any given month in 2018.
+
+![top_dest_2018](https://github.com/user-attachments/assets/5d0d60d4-30de-4931-8c47-2c8a012c57bf)
+
+Fig. Top Destinations from LAX/DFW/DEN over 2018. Taken from the top 5 destinations each month.
+
+New York and Chicago represented the most popular destinations. We had no data to suggest why this was the case, it could be hypothesized this is due to corporate travel, or possibly that these are local tourist hubs. This data is from pre-COVID and may not be reflective of travel at the current time of writing given how the travel landscape has changed.
+
+![overall_top_dest_2018](https://github.com/user-attachments/assets/7b057bf1-bbd5-4a32-bbc0-41e02a01a7dd)
+
+Fig. Showing overall frequency of destinations from LAX/DEN and DFW.
+
+##
 
 ## Key Recommendations based on Data
 
