@@ -109,16 +109,27 @@ Implications
 ![Average_Flight_Price_Range_by_Airline](https://github.com/user-attachments/assets/64c6e7d8-b560-4924-ba16-491c9018f568)
 Flights from Sydney to Los Angeles (December 2024)
 Overview
-This analysis focuses on flight prices from Sydney (SYD) to Los Angeles (LAX) for December 2024. The goal is to understand flight availability and pricing trends, helping travellers make informed decisions.
+This analysis focuses on flight prices from Sydney (SYD) to Los Angeles (LAX) for December 2024. 
+The goal is to understand flight availability and pricing trends, helping travellers make informed decisions.
+
 Key Findings
 •	Flight Availability:
-o	The program checks which days have flights available, helping travellers choose the best dates to fly.
+The program checks which days have flights available, helping travellers choose the best dates to fly.
 •	Airline Pricing:
-o	By comparing prices, travellers can see which airlines offer the best deals.
+By comparing prices, travellers can see which airlines offer the best deals.
 
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
 ![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
 
+Linear Regression Analysis of Flight Prices from Sydney to Los Angeles (December 2024)
+Overview
+A linear regression analysis was performed to evaluate the relationship between flight prices and the corresponding departure dates from Sydney (SYD) to Los Angeles (LAX) in December 2024. This analysis helps identify trends in pricing over the month.
+
+Key Findings
+Trend: The regression line indicates an upward trend in flight prices, suggesting that as the departure date approaches, prices tend to increase.
+Implications: This trend may reflect seasonal demand, where prices rise closer to peak travel times, making it essential for travelers to book flights in advance to secure better rates.
+Visualization
+A scatter plot with a regression line was created to illustrate the relationship between departure dates and flight prices. The scatter points represent individual flight prices, while the regression line highlights the overall trend.
 
 ![Air_Traffic_Scores_LAX_2018](https://github.com/user-attachments/assets/76a7025f-d966-4377-b3a9-b01ea979729b)
 
