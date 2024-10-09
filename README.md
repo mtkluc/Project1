@@ -77,6 +77,8 @@ Fig. Holiday vs Non-Holiday period - flights leaving on time.
 
 Fig. Improvement in flights leaving on time in the non-holiday period vs holiday period.
 
+In conclusion, try to avoid the holiday period where possible if minimising flight delay is important to you. LAX may have other reasons for being the airport experiencing more frequent delays than other airports, but there may be bias in the predictive modelling. 
+
 ## Local flight destination popularity
 An ideal holiday often does include participating in local activities. We sought to identify the popular local destinations from our chosen airports; however the API chosen only had information from 2018 and a limited number of airports. It would appear the vast majority of flights leaving from the US airports are domestic flights, with only LON (London), CUN (Cancun) and GDL (Guardalajara) being the only international destinations making the top 5 visited destinations in any given month in 2018.
 
@@ -89,6 +91,8 @@ New York and Chicago represented the most popular destinations. We had no data t
 ![overall_top_dest_2018](https://github.com/user-attachments/assets/7b057bf1-bbd5-4a32-bbc0-41e02a01a7dd)
 
 Fig. Showing overall frequency of destinations from LAX/DEN and DFW.
+
+In conclusion, travelling like a local means flying domestic. New York and Chicago may represent interesting destinations to visit. It is unclear why, but from someone who has only heard of pizza from both places, further data analysis may benefit from a food focus.
 
 ##
 
