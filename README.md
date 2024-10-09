@@ -93,6 +93,7 @@ New York and Chicago represented the most popular destinations. We had no data t
 Fig. Showing overall frequency of destinations from LAX/DEN and DFW.
 
 In conclusion, travelling like a local means flying domestic. New York and Chicago may represent interesting destinations to visit. It is unclear why, but from someone who has only heard of pizza from both places, further data analysis may benefit from a food focus.
+![Average_Flight_Price_Range_by_Airline](https://github.com/user-attachments/assets/64c6e7d8-b560-4924-ba16-491c9018f568)
 
 ##
 
