@@ -91,6 +91,9 @@ New York and Chicago represented the most popular destinations. We had no data t
 ![overall_top_dest_2018](https://github.com/user-attachments/assets/7b057bf1-bbd5-4a32-bbc0-41e02a01a7dd)
 
 Fig. Showing overall frequency of destinations from LAX/DEN and DFW.
+In conclusion, travelling like a local means flying domestic. New York and Chicago may represent interesting destinations to visit. It is unclear why, but from someone who has only heard of pizza from both places, further data analysis may benefit from a food focus.
+
+
 
 Chi-Square Test Analysis
 Chi-Square Statistic:
@@ -118,9 +121,6 @@ The program checks which days have flights available, helping travellers choose 
 •	Airline Pricing:
 By comparing prices, travellers can see which airlines offer the best deals.
 
-![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
-![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
-
 Linear Regression Analysis of Flight Prices from Sydney to Los Angeles (December 2024)
 Overview
 A linear regression analysis was performed to evaluate the relationship between flight prices and the corresponding departure dates from Sydney (SYD) to Los Angeles (LAX) in December 2024. This analysis helps identify trends in pricing over the month.
@@ -130,10 +130,32 @@ Trend: The regression line indicates an upward trend in flight prices, suggestin
 Implications: This trend may reflect seasonal demand, where prices rise closer to peak travel times, making it essential for travelers to book flights in advance to secure better rates.
 Visualization
 A scatter plot with a regression line was created to illustrate the relationship between departure dates and flight prices. The scatter points represent individual flight prices, while the regression line highlights the overall trend.
+Conclusion
+The analysis suggests that travelers looking to fly from Sydney to Los Angeles in December 2024 should consider booking early to avoid higher prices as the travel date approaches. Understanding this pricing trend can aid in effective travel planning and budgeting.
+![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
+![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
+
+Air Traffic Score Analysis for Los Angeles (LAX) in 2018
+Overview
+This analysis reviews the air traffic scores at Los Angeles International Airport (LAX) for select months in 2018, highlighting periods of high traveler volume.
+
+Key Findings
+Traffic Scores: The scores indicate traveler activity at LAX, with higher values representing greater airport congestion.
+Peak Months: The analysis identifies the months with the highest traffic scores, helping travelers understand when the airport is busiest.
+Monthly Air Traffic Scores for 2018
+Month	Traffic Score
+2018-01	33
+2018-02	34
+2018-03	32
+
+Conclusion
+February 2018 recorded the highest traffic score of 34, indicating it was a particularly busy month for travel at LAX.
+January 2018 followed closely with a score of 33, while March 2018 had a slightly lower score of 32.
+Travelers should consider these findings when planning trips to Los Angeles, as traveling during these peak months may lead to increased congestion and longer wait times at the airport. For a more comfortable experience, selecting less busy months could be beneficial.
 
 ![Air_Traffic_Scores_LAX_2018](https://github.com/user-attachments/assets/76a7025f-d966-4377-b3a9-b01ea979729b)
 
-In conclusion, travelling like a local means flying domestic. New York and Chicago may represent interesting destinations to visit. It is unclear why, but from someone who has only heard of pizza from both places, further data analysis may benefit from a food focus.
+
 ##
 
 ## Key Recommendations based on Data
