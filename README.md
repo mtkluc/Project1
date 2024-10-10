@@ -95,7 +95,7 @@ In conclusion, travelling like a local means flying domestic. New York and Chica
 
 
 
-Chi-Square Test Analysis
+# Chi-Square Test Analysis
 Chi-Square Statistic:
 The calculated Chi-Square statistic is 1757.86. This value indicates a substantial difference between the observed frequencies (actual data) and the expected frequencies (what we would expect if there was no association between the variables).
 P-Value:
@@ -105,41 +105,41 @@ The degrees of freedom for this test are 80. This is calculated based on the num
 Interpretation
 Rejecting the Null Hypothesis:
 The conclusion from this analysis is to reject the null hypothesis. This suggests that there is a significant association between the price ranges of flights and the airlines operating on the Sydney to Los Angeles route in December 2024.
-Implications
+# Implications
 1.	Pricing Strategies: Airlines may have different pricing strategies that are influenced by various factors such as demand, competition, or service levels. Understanding these differences can help airlines optimize their pricing.
 2.	Travel Planning: For travellers, this information highlights that flight prices can vary significantly by airline within specific price ranges. This can assist in making informed decisions when selecting airlines based on budget preferences.
 
 ![Average_Flight_Price_Range_by_Airline](https://github.com/user-attachments/assets/64c6e7d8-b560-4924-ba16-491c9018f568)
 Flights from Sydney to Los Angeles (December 2024)
-Overview
+# Overview
 This analysis focuses on flight prices from Sydney (SYD) to Los Angeles (LAX) for December 2024. 
 The goal is to understand flight availability and pricing trends, helping travellers make informed decisions.
 
-Key Findings
+# Key Findings
 •	Flight Availability:
 The program checks which days have flights available, helping travellers choose the best dates to fly.
 •	Airline Pricing:
 By comparing prices, travellers can see which airlines offer the best deals.
 
-Linear Regression Analysis of Flight Prices from Sydney to Los Angeles (December 2024)
+# Linear Regression Analysis of Flight Prices from Sydney to Los Angeles (December 2024)
 Overview
 A linear regression analysis was performed to evaluate the relationship between flight prices and the corresponding departure dates from Sydney (SYD) to Los Angeles (LAX) in December 2024. This analysis helps identify trends in pricing over the month.
 
-Key Findings
+# Key Findings
 Trend: The regression line indicates an upward trend in flight prices, suggesting that as the departure date approaches, prices tend to increase.
 Implications: This trend may reflect seasonal demand, where prices rise closer to peak travel times, making it essential for travelers to book flights in advance to secure better rates.
 Visualization
 A scatter plot with a regression line was created to illustrate the relationship between departure dates and flight prices. The scatter points represent individual flight prices, while the regression line highlights the overall trend.
-Conclusion
+# Conclusion
 The analysis suggests that travelers looking to fly from Sydney to Los Angeles in December 2024 should consider booking early to avoid higher prices as the travel date approaches. Understanding this pricing trend can aid in effective travel planning and budgeting.
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
 ![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
 
 Air Traffic Score Analysis for Los Angeles (LAX) in 2018
-Overview
+# Overview
 This analysis reviews the air traffic scores at Los Angeles International Airport (LAX) for select months in 2018, highlighting periods of high traveler volume.
 
-Key Findings
+# Key Findings
 Traffic Scores: The scores indicate traveler activity at LAX, with higher values representing greater airport congestion.
 Peak Months: The analysis identifies the months with the highest traffic scores, helping travelers understand when the airport is busiest.
 Monthly Air Traffic Scores for 2018
@@ -148,55 +148,69 @@ Month	Traffic Score
 2018-02	34
 2018-03	32
 
-Conclusion
+# Conclusion
 February 2018 recorded the highest traffic score of 34, indicating it was a particularly busy month for travel at LAX.
 January 2018 followed closely with a score of 33, while March 2018 had a slightly lower score of 32.
 Travelers should consider these findings when planning trips to Los Angeles, as traveling during these peak months may lead to increased congestion and longer wait times at the airport. For a more comfortable experience, selecting less busy months could be beneficial.
 
 ![Air_Traffic_Scores_LAX_2018](https://github.com/user-attachments/assets/76a7025f-d966-4377-b3a9-b01ea979729b)
 
-Weather Analysis Based on U.S. Bureau of Transportation Statistics (BTS) Dataset for January 2024:
+## Weather Analysis Based on U.S. Bureau of Transportation Statistics (BTS) Dataset for January 2024:
 
-1.	Monthly Weather-Related Delays by Airport:
+# 1.	Monthly Weather-Related Delays by Airport:
 •	The first chart shows a clear difference in the number of weather-related delays across various airports. Dallas/Fort Worth (DFW) experiences the highest number of delays, peaking sharply in May with over 700 delays.
-
 •	Other airports like JFK, LAX, and SFO maintain relatively low and steady levels of weather-related delays throughout the months, with no drastic spikes. This suggests that certain airports are more vulnerable to weather disruptions, possibly due to geographical or regional weather patterns.
 
 ![monthly_weather_related_delays_US_airports](https://github.com/user-attachments/assets/114c29ac-a819-4d7b-8686-e0299a7631ab)
 
-2.	Comparison of Weather-Related Delays and Cancellations:
+# Implications:
+     Airlines operating from DFW need to allocate more resources and contingency plans during the spring, especially in May, to manage the higher likelihood of weather-related delays and cancellations.
+     Airports like JFK, LAX, and SFO, while having fewer disruptions, should still have systems in place for unexpected weather changes, albeit on a smaller scale.
+     
+# 2.	Comparison of Weather-Related Delays and Cancellations:
 •	Weather-related delays and cancellations exhibit different patterns. May stands out with the highest number of cancellations (over 2000), which could be due to severe weather conditions such as storms or heavy rain that make cancellations more likely. Delays also peak in May but are generally lower than the number of cancellations.
-
 •	The sharp decline in both delays and cancellations in June, followed by another rise in cancellations in July, indicates fluctuating weather conditions that heavily impact flight schedules.
 ![monthly_weather_related_delays](https://github.com/user-attachments/assets/da7c1b6c-321e-4265-8158-9f46555c8372)
-
-3.	Seasonal Analysis of Delays and Cancellations:
+# Implications:
+    Passengers flying through DFW in the spring should be prepared for possible delays or cancellations. Awareness campaigns, better communication, and real-time updates can improve customer experience during peak disruption periods.
+    Airports with lower disruption rates can focus on maintaining their relatively stable performance by ensuring that smaller disruptions don't escalate.
+    
+# 3.	Seasonal Analysis of Delays and Cancellations:
 •	Weather-related delays and cancellations are highest in the spring season, which could be attributed to volatile weather patterns like thunderstorms and high winds.
 •	During the winter season, there are fewer weather-related delays and cancellations, which suggests that while winter storms may cause significant disruptions, they occur less frequently across the U.S.
 •	Summer sees a moderate level of disruptions, with cancellations being more prominent than delays, potentially due to unpredictable summer storms.
 ![seasonal_weather_related_delays_US_airports_2024](https://github.com/user-attachments/assets/3a73d49c-17d6-4a3e-abec-b96e631d5244)
+# Implications:
+     Airlines should consider adjusting flight schedules and staffing levels during the spring, especially in regions more prone to storms. Flexibility in rebooking and cancellation policies during these peak periods may help reduce passenger dissatisfaction.
 
-These findings highlight the critical importance of weather in flight delays and cancellations, with significant operational and strategic implications for airlines and airport management.
+To Conclude, these findings highlight the critical importance of weather in flight delays and cancellations, with significant operational and strategic implications for airlines and airport management.
 
-Five-Day Weather Forecast and Analysis:
-1.	Correlation Between Weather Conditions:
+## Five-Day Weather Forecast and Analysis:
+# 1.	Correlation Between Weather Conditions:
 •	The correlation heatmap shows a very low correlation between temperature and wind speed (0.18), meaning these two factors have little direct interaction. Both variables, however, are independently significant when assessing flight delays. Precipitation data was not available or correlated in this plot, which may need further review to determine its impact on flight operations.
 ![correlation_weather_coniditions](https://github.com/user-attachments/assets/b7505f3a-43e4-43dc-9f4f-2390c33da008)
 
-2.	Wind Speed Impact on Flight Delays/Cancellations:
+# 2.	Wind Speed Impact on Flight Delays/Cancellations:
 •	In the first hypothesis analysis, it is evident that higher wind speeds are linked to increased chances of flight delays or cancellations. When wind speeds exceed 5 m/s, the likelihood of delays or cancellations increases, supporting the hypothesis that wind speed is a critical factor in aviation disruptions.
 •	Lower wind speeds (below 4 m/s) show negligible effects on delays, indicating that flight operations remain largely unaffected by mild winds
 ![hypothesis_1](https://github.com/user-attachments/assets/8f2dbc0a-de5b-4d72-8227-a0e373a159d1)
-
-3.	Precipitation's Influence on Delays:
+# Implications:
+     Airlines and airports should closely monitor wind speed forecasts, especially when speeds exceed 5 m/s, as this is associated with higher chances of delays or cancellations. Contingency plans, such as rescheduling or rerouting flights, can help mitigate the operational impact of high winds.
+     
+# 3.	Precipitation's Influence on Delays:
 •	The second hypothesis examined precipitation and its relationship with flight delays/cancellations. The scatter plot indicates very little to no correlation between precipitation and the chances of delays in the observed data. This could suggest that while precipitation (e.g., rain) may disrupt ground operations or cause delays in specific cases, it is not a dominant factor for widespread flight cancellations or delays across these airports.
 ![hypothesis_2](https://github.com/user-attachments/assets/15e12468-0677-46dc-8cd6-79422ea2f6d9)
-
-4.	Temperature's Impact on Flight Delays/Cancellations:
+# Implications:
+      Despite precipitation's potential to disrupt airport operations, its limited influence on delays in this dataset suggests that airports have established effective management practices for dealing with rain or other precipitation. However, airports should still be vigilant, especially in regions prone to more severe weather (e.g., snow or hail), which could have a greater impact than rain alone.
+      
+# 4.	Temperature's Impact on Flight Delays/Cancellations:
 •	The third hypothesis analyzed the relationship between temperature and the likelihood of delays. Similar to wind speed, there seems to be a relationship between higher temperatures and increased delays or cancellations, particularly when temperatures reach the 16°C range. The spread of data suggests that temperature extremes (whether too low or too high) may cause operational challenges leading to delays.
 ![hypothesis_3](https://github.com/user-attachments/assets/ebc5cf9e-7e60-4f1e-8df1-64564f28ee6e)
-
-In summary, wind speed and temperature are the most influential weather factors affecting flight delays and cancellations. Precipitation appears to have a limited effect in this dataset, but further analysis with more diverse weather conditions might reveal a different relationship. Seasonal planning and operational flexibility will be key for mitigating the impact of weather on flight operations.
+# Implications:
+     As temperatures rise, particularly in summer months, airlines should prepare for potential delays or equipment challenges. Ground delays due to heat may cause significant logistical issues, requiring adequate planning for fuel management and passenger comfort.
+     The findings reinforce the need for more granular predictive models to forecast delays based on weather. By integrating precise weather data with operational metrics, airlines can improve resource allocation, minimize delays, and enhance the passenger experience during disruptive weather events.
+# In summary,  
+wind speed and temperature are the most influential weather factors affecting flight delays and cancellations. Precipitation appears to have a limited effect in this dataset, but further analysis with more diverse weather conditions might reveal a different relationship. Seasonal planning and operational flexibility will be key for mitigating the impact of weather on flight operations.
 
 ##
 
