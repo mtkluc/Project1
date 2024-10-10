@@ -95,63 +95,52 @@ In conclusion, travelling like a local means flying domestic. New York and Chica
 
 
 
-# Chi-Square Test Analysis
-Chi-Square Statistic:
-The calculated Chi-Square statistic is 1757.86. This value indicates a substantial difference between the observed frequencies (actual data) and the expected frequencies (what we would expect if there was no association between the variables).
-P-Value:
-The P-value is 0.0000, which is significantly lower than the common significance level of 0.05. This indicates strong evidence against the null hypothesis.
-Degrees of Freedom:
-The degrees of freedom for this test are 80. This is calculated based on the number of categories (price ranges and airlines) in the contingency table.
-Interpretation
-Rejecting the Null Hypothesis:
-The conclusion from this analysis is to reject the null hypothesis. This suggests that there is a significant association between the price ranges of flights and the airlines operating on the Sydney to Los Angeles route in December 2024.
-# Implications
-1.	Pricing Strategies: Airlines may have different pricing strategies that are influenced by various factors such as demand, competition, or service levels. Understanding these differences can help airlines optimize their pricing.
-2.	Travel Planning: For travellers, this information highlights that flight prices can vary significantly by airline within specific price ranges. This can assist in making informed decisions when selecting airlines based on budget preferences.
+Chi-Square Test Analysis
+Chi-Square Statistic: The calculated Chi-Square statistic is 1757.86, indicating a significant difference between the observed and expected frequencies of flight prices across airlines. This large value suggests that the relationship between price ranges and airlines is not due to random chance.
+
+P-Value: The P-value is 0.0000, far below the significance threshold of 0.05. This provides strong evidence against the null hypothesis, supporting the existence of an association between flight price ranges and airlines.
+
+Interpretation: The null hypothesis, which assumes no association between price ranges and airlines, is rejected. This suggests that different airlines on the Sydney to Los Angeles route in December 2024 employ varying pricing strategies.
+
+Implications
+Pricing Strategies: Airlines may adjust pricing based on factors like demand, competition, or service levels. Understanding these strategies helps airlines optimize their pricing models to stay competitive.
+
+Travel Planning: For travelers, this analysis reveals that flight prices can vary widely across airlines. This information can guide travelers in selecting the best airline for their budget.
 
 ![Average_Flight_Price_Range_by_Airline](https://github.com/user-attachments/assets/64c6e7d8-b560-4924-ba16-491c9018f568)
-Flights from Sydney to Los Angeles (December 2024)
-# Overview
-This analysis focuses on flight prices from Sydney (SYD) to Los Angeles (LAX) for December 2024. 
-The goal is to understand flight availability and pricing trends, helping travellers make informed decisions.
+Average Flight Price Range by Airline
+Route: Sydney (SYD) to Los Angeles (LAX) in December 2024
 
-# Key Findings
-•	Flight Availability:
-The program checks which days have flights available, helping travellers choose the best dates to fly.
-•	Airline Pricing:
-By comparing prices, travellers can see which airlines offer the best deals.
-
-# Linear Regression Analysis of Flight Prices from Sydney to Los Angeles (December 2024)
 Overview
-A linear regression analysis was performed to evaluate the relationship between flight prices and the corresponding departure dates from Sydney (SYD) to Los Angeles (LAX) in December 2024. This analysis helps identify trends in pricing over the month.
+This analysis focuses on flight availability and pricing trends for travelers planning to fly from Sydney to Los Angeles in December 2024. By understanding how flight prices vary, travelers can make more informed choices.
 
-# Key Findings
-Trend: The regression line indicates an upward trend in flight prices, suggesting that as the departure date approaches, prices tend to increase.
-Implications: This trend may reflect seasonal demand, where prices rise closer to peak travel times, making it essential for travelers to book flights in advance to secure better rates.
+Key Findings
+Flight Availability: The analysis identifies which dates have available flights, helping travelers choose optimal travel days.
+Airline Pricing: Comparing prices across airlines allows travelers to identify which airlines offer the most cost-effective flights.
+
+Linear Regression Analysis of Flight Prices (Sydney to Los Angeles, December 2024)
+Overview
+A linear regression was conducted to examine the relationship between flight prices and departure dates for December 2024 on the Sydney to Los Angeles route. This analysis helps identify pricing trends.
+
+Key Findings
+Trend: The regression analysis reveals an upward trend in flight prices, suggesting that prices increase as the departure date approaches.
+Implications: This upward trend may reflect rising demand during peak travel periods. Travelers can benefit from booking early to secure better prices.
 Visualization
-A scatter plot with a regression line was created to illustrate the relationship between departure dates and flight prices. The scatter points represent individual flight prices, while the regression line highlights the overall trend.
-# Conclusion
-The analysis suggests that travelers looking to fly from Sydney to Los Angeles in December 2024 should consider booking early to avoid higher prices as the travel date approaches. Understanding this pricing trend can aid in effective travel planning and budgeting.
+A scatter plot with a regression line was used to visualize the relationship between departure dates and flight prices. Individual flight prices are shown as scatter points, while the regression line highlights the overall trend.
+Findings:
+To avoid higher prices as departure dates approach, travelers should consider booking flights early. Understanding this trend can lead to better travel planning and budgeting.
+
+
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
 ![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
 
-Air Traffic Score Analysis for Los Angeles (LAX) in 2018
-# Overview
-This analysis reviews the air traffic scores at Los Angeles International Airport (LAX) for select months in 2018, highlighting periods of high traveler volume.
+Air Traffic Score Analysis for Los Angeles International Airport (LAX) in 2018
+Overview
+This analysis reviews air traffic at Los Angeles International Airport (LAX) during select months of 2018, identifying periods of high congestion.
 
-# Key Findings
-Traffic Scores: The scores indicate traveler activity at LAX, with higher values representing greater airport congestion.
-Peak Months: The analysis identifies the months with the highest traffic scores, helping travelers understand when the airport is busiest.
-Monthly Air Traffic Scores for 2018
-Month	Traffic Score
-2018-01	33
-2018-02	34
-2018-03	32
-
-# Conclusion
-February 2018 recorded the highest traffic score of 34, indicating it was a particularly busy month for travel at LAX.
-January 2018 followed closely with a score of 33, while March 2018 had a slightly lower score of 32.
-Travelers should consider these findings when planning trips to Los Angeles, as traveling during these peak months may lead to increased congestion and longer wait times at the airport. For a more comfortable experience, selecting less busy months could be beneficial.
+Key Findings
+Traffic Scores: Higher scores indicate greater traveler activity and airport congestion.
+Peak Months: The analysis reveals that February 2018 had the highest traffic score (34), followed by January (33), and March (32)
 
 ![Air_Traffic_Scores_LAX_2018](https://github.com/user-attachments/assets/76a7025f-d966-4377-b3a9-b01ea979729b)
 
