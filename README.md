@@ -132,6 +132,8 @@ Findings:
 To avoid higher prices as departure dates approach, travelers should consider booking flights early. Understanding this trend can lead to better travel planning and budgeting.
 ![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
 
+#Flight Prices from Sydney to LosAngeles in Dec 2024
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 The graph represents the relationship between flight prices and departure dates for flights from Sydney to Los Angeles in December 2024. Here's a breakdown of the analysis:
 
 Key Observations:
@@ -140,7 +142,6 @@ Flight prices range widely from around 1,000 AUD to over 7,000 AUD across differ
 Regression Line (Red Line):
 The red line represents the trend of flight prices as departure dates progress through December.
 The line shows a slight upward trend, suggesting that, on average, flight prices tend to increase as the departure date approaches.
-Price Distribution:
 
 Findings:
 The graph suggests that while there is an overall upward trend in flight prices as the departure date approaches, there is also considerable price variation on any given day. Travelers can benefit from booking earlier in the month when prices appear to be lower and more consistent.
@@ -148,7 +149,8 @@ The graph suggests that while there is an overall upward trend in flight prices 
 
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
 
-
+#Busiest period analysis
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 Air Traffic Score Analysis for Los Angeles International Airport (LAX) in 2018
 Overview
 This analysis reviews air traffic at Los Angeles International Airport (LAX) during select months of 2018, identifying periods of high congestion.
