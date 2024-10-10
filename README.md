@@ -130,10 +130,36 @@ Visualization
 A scatter plot with a regression line was used to visualize the relationship between departure dates and flight prices. Individual flight prices are shown as scatter points, while the regression line highlights the overall trend.
 Findings:
 To avoid higher prices as departure dates approach, travelers should consider booking flights early. Understanding this trend can lead to better travel planning and budgeting.
+![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
+
+The graph represents the relationship between flight prices and departure dates for flights from Sydney to Los Angeles in December 2024. Here's a breakdown of the analysis:
+
+Key Observations:
+Scatter Plot (Blue Dots):
+
+Each dot represents an individual flight price on a specific departure date.
+Flight prices range widely from around 1,000 AUD to over 7,000 AUD across different dates, indicating significant variability in pricing.
+Regression Line (Red Line):
+
+The red line represents the trend of flight prices as departure dates progress through December.
+The line shows a slight upward trend, suggesting that, on average, flight prices tend to increase as the departure date approaches.
+Price Distribution:
+
+There are many instances where prices cluster around the lower end (between 1,000 and 2,000 AUD).
+However, higher price points, particularly above 5,000 AUD, appear more scattered, showing less frequent but substantial price increases.
+Date Clustering:
+
+There is more concentrated flight price activity earlier in the month (around December 1 to 10), possibly indicating more available flights and competitive pricing during this period.
+The price distribution remains consistent toward the end of the month, but with some higher peaks appearing more frequently.
+Trend Insights:
+Upward Price Trend: The regression line shows that as departure dates move closer to late December, flight prices tend to rise gradually. This could indicate increasing demand during the holiday season, where travelers are more likely to book last-minute flights at higher rates.
+Price Variability: Despite the general upward trend, flight prices vary significantly on specific days, suggesting that factors like availability, airline pricing strategies, or specific demand fluctuations may heavily influence pricing.
+Findings:
+The graph suggests that while there is an overall upward trend in flight prices as the departure date approaches, there is also considerable price variation on any given day. Travelers can benefit from booking earlier in the month when prices appear to be lower and more consistent.
 
 
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
-![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
+
 
 Air Traffic Score Analysis for Los Angeles International Airport (LAX) in 2018
 Overview
