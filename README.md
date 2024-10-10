@@ -93,23 +93,8 @@ New York and Chicago represented the most popular destinations. We had no data t
 Fig. Showing overall frequency of destinations from LAX/DEN and DFW.
 In conclusion, travelling like a local means flying domestic. New York and Chicago may represent interesting destinations to visit. It is unclear why, but from someone who has only heard of pizza from both places, further data analysis may benefit from a food focus.
 
-
-
-#Chi-Square Test Analysis
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-I am using Chi-Square Statistics to to test if there is a relationship between Airlines and Price changes.The calculated Chi-Square statistic is 1757.86, indicating a significant difference between the observed and expected frequencies of flight prices across airlines. This large value suggests that the relationship between price ranges and airlines is not due to random chance.
-
-P-Value: The P-value is 0.0000, far below the significance threshold of 0.05. This provides strong evidence against the null hypothesis, supporting the existence of an association between flight price ranges and airlines.
-
-Interpretation: The null hypothesis, which assumes no association between price ranges and airlines, is rejected. This suggests that different airlines on the Sydney to Los Angeles route in December 2024 employ varying pricing strategies.
-
-Implications
-Pricing Strategies: Airlines may adjust pricing based on factors like demand, competition, or service levels. Understanding these strategies helps airlines optimize their pricing models to stay competitive.
-
-Travel Planning: For travelers, this analysis reveals that flight prices can vary widely across airlines. This information can guide travelers in selecting the best airline for their budget.
-
-![Average_Flight_Price_Range_by_Airline](https://github.com/user-attachments/assets/64c6e7d8-b560-4924-ba16-491c9018f568)
-Average Flight Price Range by Airline
+#Average Flight Price Range by Airline
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Route: Sydney (SYD) to Los Angeles (LAX) in December 2024
 
 Overview
@@ -149,6 +134,9 @@ The graph suggests that while there is an overall upward trend in flight prices 
 
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
 
+
+
+
 #Busiest period analysis
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 Air Traffic Score Analysis for Los Angeles International Airport (LAX) in 2018
@@ -161,9 +149,25 @@ Peak Months: The analysis reveals that February 2018 had the highest traffic sco
 
 ![Air_Traffic_Scores_LAX_2018](https://github.com/user-attachments/assets/76a7025f-d966-4377-b3a9-b01ea979729b)
 
+
+#Chi-Square Test Analysis
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I am using Chi-Square Statistics to to test if there is a relationship between Airlines and Price changes.The calculated Chi-Square statistic is 1757.86, indicating a significant difference between the observed and expected frequencies of flight prices across airlines. This large value suggests that the relationship between price ranges and airlines is not due to random chance.
+
+P-Value: The P-value is 0.0000, far below the significance threshold of 0.05. This provides strong evidence against the null hypothesis, supporting the existence of an association between flight price ranges and airlines.
+
+Interpretation: The null hypothesis, which assumes no association between price ranges and airlines, is rejected. This suggests that different airlines on the Sydney to Los Angeles route in December 2024 employ varying pricing strategies.
+
+Implications
+Pricing Strategies: Airlines may adjust pricing based on factors like demand, competition, or service levels. Understanding these strategies helps airlines optimize their pricing models to stay competitive.
+
+Travel Planning: For travelers, this analysis reveals that flight prices can vary widely across airlines. This information can guide travelers in selecting the best airline for their budget.
+
+![Average_Flight_Price_Range_by_Airline](https://github.com/user-attachments/assets/64c6e7d8-b560-4924-ba16-491c9018f568)
+
 ## Weather Analysis Based on U.S. Bureau of Transportation Statistics (BTS) Dataset for January 2024:
 
-# 1.	Monthly Weather-Related Delays by Airport:
+#	Monthly Weather-Related Delays by Airport:
 •	The first chart shows a clear difference in the number of weather-related delays across various airports. Dallas/Fort Worth (DFW) experiences the highest number of delays, peaking sharply in May with over 700 delays.
 •	Other airports like JFK, LAX, and SFO maintain relatively low and steady levels of weather-related delays throughout the months, with no drastic spikes. This suggests that certain airports are more vulnerable to weather disruptions, possibly due to geographical or regional weather patterns.
 
@@ -192,27 +196,27 @@ Peak Months: The analysis reveals that February 2018 had the highest traffic sco
 To Conclude, these findings highlight the critical importance of weather in flight delays and cancellations, with significant operational and strategic implications for airlines and airport management.
 
 ## Five-Day Weather Forecast and Analysis:
-# 1.	Correlation Between Weather Conditions:
+Correlation Between Weather Conditions:
 •	The correlation heatmap shows a very low correlation between temperature and wind speed (0.18), meaning these two factors have little direct interaction. Both variables, however, are independently significant when assessing flight delays. Precipitation data was not available or correlated in this plot, which may need further review to determine its impact on flight operations.
 ![correlation_weather_coniditions](https://github.com/user-attachments/assets/b7505f3a-43e4-43dc-9f4f-2390c33da008)
 
-# 2.	Wind Speed Impact on Flight Delays/Cancellations:
+Wind Speed Impact on Flight Delays/Cancellations:
 •	In the first hypothesis analysis, it is evident that higher wind speeds are linked to increased chances of flight delays or cancellations. When wind speeds exceed 5 m/s, the likelihood of delays or cancellations increases, supporting the hypothesis that wind speed is a critical factor in aviation disruptions.
 •	Lower wind speeds (below 4 m/s) show negligible effects on delays, indicating that flight operations remain largely unaffected by mild winds
 ![hypothesis_1](https://github.com/user-attachments/assets/8f2dbc0a-de5b-4d72-8227-a0e373a159d1)
 # Implications:
 - Airlines and airports should closely monitor wind speed forecasts, especially when speeds exceed 5 m/s, as this is associated with higher chances of delays or cancellations. Contingency plans, such as rescheduling or rerouting flights, can help mitigate the operational impact of high winds.
      
-# 3.	Precipitation's Influence on Delays:
+Precipitation's Influence on Delays:
 •	The second hypothesis examined precipitation and its relationship with flight delays/cancellations. The scatter plot indicates very little to no correlation between precipitation and the chances of delays in the observed data. This could suggest that while precipitation (e.g., rain) may disrupt ground operations or cause delays in specific cases, it is not a dominant factor for widespread flight cancellations or delays across these airports.
 ![hypothesis_2](https://github.com/user-attachments/assets/15e12468-0677-46dc-8cd6-79422ea2f6d9)
 # Implications:
 - Despite precipitation's potential to disrupt airport operations, its limited influence on delays in this dataset suggests that airports have established effective management practices for dealing with rain or other precipitation. However, airports should still be vigilant, especially in regions prone to more severe weather (e.g., snow or hail), which could have a greater impact than rain alone.
       
-# 4.	Temperature's Impact on Flight Delays/Cancellations:
+Temperature's Impact on Flight Delays/Cancellations:
 •	The third hypothesis analyzed the relationship between temperature and the likelihood of delays. Similar to wind speed, there seems to be a relationship between higher temperatures and increased delays or cancellations, particularly when temperatures reach the 16°C range. The spread of data suggests that temperature extremes (whether too low or too high) may cause operational challenges leading to delays.
 ![hypothesis_3](https://github.com/user-attachments/assets/ebc5cf9e-7e60-4f1e-8df1-64564f28ee6e)
-# Implications:
+Implications:
 - As temperatures rise, particularly in summer months, airlines should prepare for potential delays or equipment challenges. Ground delays due to heat may cause significant logistical issues, requiring adequate planning for fuel management and passenger comfort.
 - The findings reinforce the need for more granular predictive models to forecast delays based on weather. By integrating precise weather data with operational metrics, airlines can improve resource allocation, minimize delays, and enhance the passenger experience during disruptive weather events.
 # Summary  
