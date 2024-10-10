@@ -177,7 +177,7 @@ Travel Planning: For travelers, this analysis reveals that flight prices can var
  - Airlines operating from DFW need to allocate more resources and contingency plans during the spring, especially in May, to manage the higher likelihood of weather-related delays and cancellations.
  - Airports like JFK, LAX, and SFO, while having fewer disruptions, should still have systems in place for unexpected weather changes, albeit on a smaller scale.
      
-# 2.	Comparison of Weather-Related Delays and Cancellations:
+# 	Comparison of Weather-Related Delays and Cancellations:
 •	Weather-related delays and cancellations exhibit different patterns. May stands out with the highest number of cancellations (over 2000), which could be due to severe weather conditions such as storms or heavy rain that make cancellations more likely. Delays also peak in May but are generally lower than the number of cancellations.
 •	The sharp decline in both delays and cancellations in June, followed by another rise in cancellations in July, indicates fluctuating weather conditions that heavily impact flight schedules.
 ![monthly_weather_related_delays](https://github.com/user-attachments/assets/da7c1b6c-321e-4265-8158-9f46555c8372)
@@ -185,7 +185,7 @@ Travel Planning: For travelers, this analysis reveals that flight prices can var
 - Passengers flying through DFW in the spring should be prepared for possible delays or cancellations. Awareness campaigns, better communication, and real-time updates can improve customer experience during peak disruption periods.
 - Airports with lower disruption rates can focus on maintaining their relatively stable performance by ensuring that smaller disruptions don't escalate.
     
-# 3.	Seasonal Analysis of Delays and Cancellations:
+# 	Seasonal Analysis of Delays and Cancellations:
 •	Weather-related delays and cancellations are highest in the spring season, which could be attributed to volatile weather patterns like thunderstorms and high winds.
 •	During the winter season, there are fewer weather-related delays and cancellations, which suggests that while winter storms may cause significant disruptions, they occur less frequently across the U.S.
 •	Summer sees a moderate level of disruptions, with cancellations being more prominent than delays, potentially due to unpredictable summer storms.
