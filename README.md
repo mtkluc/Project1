@@ -164,16 +164,16 @@ Travelers should consider these findings when planning trips to Los Angeles, as 
 ![monthly_weather_related_delays_US_airports](https://github.com/user-attachments/assets/114c29ac-a819-4d7b-8686-e0299a7631ab)
 
 # Implications:
-     Airlines operating from DFW need to allocate more resources and contingency plans during the spring, especially in May, to manage the higher likelihood of weather-related delays and cancellations.
-     Airports like JFK, LAX, and SFO, while having fewer disruptions, should still have systems in place for unexpected weather changes, albeit on a smaller scale.
+ - Airlines operating from DFW need to allocate more resources and contingency plans during the spring, especially in May, to manage the higher likelihood of weather-related delays and cancellations.
+ - Airports like JFK, LAX, and SFO, while having fewer disruptions, should still have systems in place for unexpected weather changes, albeit on a smaller scale.
      
 # 2.	Comparison of Weather-Related Delays and Cancellations:
 •	Weather-related delays and cancellations exhibit different patterns. May stands out with the highest number of cancellations (over 2000), which could be due to severe weather conditions such as storms or heavy rain that make cancellations more likely. Delays also peak in May but are generally lower than the number of cancellations.
 •	The sharp decline in both delays and cancellations in June, followed by another rise in cancellations in July, indicates fluctuating weather conditions that heavily impact flight schedules.
 ![monthly_weather_related_delays](https://github.com/user-attachments/assets/da7c1b6c-321e-4265-8158-9f46555c8372)
 # Implications:
-    Passengers flying through DFW in the spring should be prepared for possible delays or cancellations. Awareness campaigns, better communication, and real-time updates can improve customer experience during peak disruption periods.
-    Airports with lower disruption rates can focus on maintaining their relatively stable performance by ensuring that smaller disruptions don't escalate.
+- Passengers flying through DFW in the spring should be prepared for possible delays or cancellations. Awareness campaigns, better communication, and real-time updates can improve customer experience during peak disruption periods.
+- Airports with lower disruption rates can focus on maintaining their relatively stable performance by ensuring that smaller disruptions don't escalate.
     
 # 3.	Seasonal Analysis of Delays and Cancellations:
 •	Weather-related delays and cancellations are highest in the spring season, which could be attributed to volatile weather patterns like thunderstorms and high winds.
@@ -181,7 +181,7 @@ Travelers should consider these findings when planning trips to Los Angeles, as 
 •	Summer sees a moderate level of disruptions, with cancellations being more prominent than delays, potentially due to unpredictable summer storms.
 ![seasonal_weather_related_delays_US_airports_2024](https://github.com/user-attachments/assets/3a73d49c-17d6-4a3e-abec-b96e631d5244)
 # Implications:
-     Airlines should consider adjusting flight schedules and staffing levels during the spring, especially in regions more prone to storms. Flexibility in rebooking and cancellation policies during these peak periods may help reduce passenger dissatisfaction.
+- Airlines should consider adjusting flight schedules and staffing levels during the spring, especially in regions more prone to storms. Flexibility in rebooking and cancellation policies during these peak periods may help reduce passenger dissatisfaction.
 
 To Conclude, these findings highlight the critical importance of weather in flight delays and cancellations, with significant operational and strategic implications for airlines and airport management.
 
@@ -195,21 +195,21 @@ To Conclude, these findings highlight the critical importance of weather in flig
 •	Lower wind speeds (below 4 m/s) show negligible effects on delays, indicating that flight operations remain largely unaffected by mild winds
 ![hypothesis_1](https://github.com/user-attachments/assets/8f2dbc0a-de5b-4d72-8227-a0e373a159d1)
 # Implications:
-     Airlines and airports should closely monitor wind speed forecasts, especially when speeds exceed 5 m/s, as this is associated with higher chances of delays or cancellations. Contingency plans, such as rescheduling or rerouting flights, can help mitigate the operational impact of high winds.
+- Airlines and airports should closely monitor wind speed forecasts, especially when speeds exceed 5 m/s, as this is associated with higher chances of delays or cancellations. Contingency plans, such as rescheduling or rerouting flights, can help mitigate the operational impact of high winds.
      
 # 3.	Precipitation's Influence on Delays:
 •	The second hypothesis examined precipitation and its relationship with flight delays/cancellations. The scatter plot indicates very little to no correlation between precipitation and the chances of delays in the observed data. This could suggest that while precipitation (e.g., rain) may disrupt ground operations or cause delays in specific cases, it is not a dominant factor for widespread flight cancellations or delays across these airports.
 ![hypothesis_2](https://github.com/user-attachments/assets/15e12468-0677-46dc-8cd6-79422ea2f6d9)
 # Implications:
-      Despite precipitation's potential to disrupt airport operations, its limited influence on delays in this dataset suggests that airports have established effective management practices for dealing with rain or other precipitation. However, airports should still be vigilant, especially in regions prone to more severe weather (e.g., snow or hail), which could have a greater impact than rain alone.
+- Despite precipitation's potential to disrupt airport operations, its limited influence on delays in this dataset suggests that airports have established effective management practices for dealing with rain or other precipitation. However, airports should still be vigilant, especially in regions prone to more severe weather (e.g., snow or hail), which could have a greater impact than rain alone.
       
 # 4.	Temperature's Impact on Flight Delays/Cancellations:
 •	The third hypothesis analyzed the relationship between temperature and the likelihood of delays. Similar to wind speed, there seems to be a relationship between higher temperatures and increased delays or cancellations, particularly when temperatures reach the 16°C range. The spread of data suggests that temperature extremes (whether too low or too high) may cause operational challenges leading to delays.
 ![hypothesis_3](https://github.com/user-attachments/assets/ebc5cf9e-7e60-4f1e-8df1-64564f28ee6e)
 # Implications:
-     As temperatures rise, particularly in summer months, airlines should prepare for potential delays or equipment challenges. Ground delays due to heat may cause significant logistical issues, requiring adequate planning for fuel management and passenger comfort.
-     The findings reinforce the need for more granular predictive models to forecast delays based on weather. By integrating precise weather data with operational metrics, airlines can improve resource allocation, minimize delays, and enhance the passenger experience during disruptive weather events.
-# In summary,  
+- As temperatures rise, particularly in summer months, airlines should prepare for potential delays or equipment challenges. Ground delays due to heat may cause significant logistical issues, requiring adequate planning for fuel management and passenger comfort.
+- The findings reinforce the need for more granular predictive models to forecast delays based on weather. By integrating precise weather data with operational metrics, airlines can improve resource allocation, minimize delays, and enhance the passenger experience during disruptive weather events.
+# Summary  
 wind speed and temperature are the most influential weather factors affecting flight delays and cancellations. Precipitation appears to have a limited effect in this dataset, but further analysis with more diverse weather conditions might reveal a different relationship. Seasonal planning and operational flexibility will be key for mitigating the impact of weather on flight operations.
 
 ##
