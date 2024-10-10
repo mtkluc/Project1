@@ -97,7 +97,7 @@ In conclusion, travelling like a local means flying domestic. New York and Chica
 
 #Chi-Square Test Analysis
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Chi-Square Statistic: The calculated Chi-Square statistic is 1757.86, indicating a significant difference between the observed and expected frequencies of flight prices across airlines. This large value suggests that the relationship between price ranges and airlines is not due to random chance.
+I am using Chi-Square Statistics to to test if there is a relationship between Airlines and Price changes.The calculated Chi-Square statistic is 1757.86, indicating a significant difference between the observed and expected frequencies of flight prices across airlines. This large value suggests that the relationship between price ranges and airlines is not due to random chance.
 
 P-Value: The P-value is 0.0000, far below the significance threshold of 0.05. This provides strong evidence against the null hypothesis, supporting the existence of an association between flight price ranges and airlines.
 
