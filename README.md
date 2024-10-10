@@ -161,7 +161,42 @@ Weather Analysis Based on U.S. Bureau of Transportation Statistics (BTS) Dataset
 •	The first chart shows a clear difference in the number of weather-related delays across various airports. Dallas/Fort Worth (DFW) experiences the highest number of delays, peaking sharply in May with over 700 delays.
 
 •	Other airports like JFK, LAX, and SFO maintain relatively low and steady levels of weather-related delays throughout the months, with no drastic spikes. This suggests that certain airports are more vulnerable to weather disruptions, possibly due to geographical or regional weather patterns.
-![image](https://github.com/user-attachments/assets/036e8704-c9fa-440c-b9d1-0f5729a915d2)
+
+![monthly_weather_related_delays_US_airports](https://github.com/user-attachments/assets/114c29ac-a819-4d7b-8686-e0299a7631ab)
+
+2.	Comparison of Weather-Related Delays and Cancellations:
+•	Weather-related delays and cancellations exhibit different patterns. May stands out with the highest number of cancellations (over 2000), which could be due to severe weather conditions such as storms or heavy rain that make cancellations more likely. Delays also peak in May but are generally lower than the number of cancellations.
+
+•	The sharp decline in both delays and cancellations in June, followed by another rise in cancellations in July, indicates fluctuating weather conditions that heavily impact flight schedules.
+![monthly_weather_related_delays](https://github.com/user-attachments/assets/da7c1b6c-321e-4265-8158-9f46555c8372)
+
+3.	Seasonal Analysis of Delays and Cancellations:
+•	Weather-related delays and cancellations are highest in the spring season, which could be attributed to volatile weather patterns like thunderstorms and high winds.
+•	During the winter season, there are fewer weather-related delays and cancellations, which suggests that while winter storms may cause significant disruptions, they occur less frequently across the U.S.
+•	Summer sees a moderate level of disruptions, with cancellations being more prominent than delays, potentially due to unpredictable summer storms.
+![seasonal_weather_related_delays_US_airports_2024](https://github.com/user-attachments/assets/3a73d49c-17d6-4a3e-abec-b96e631d5244)
+
+These findings highlight the critical importance of weather in flight delays and cancellations, with significant operational and strategic implications for airlines and airport management.
+
+Five-Day Weather Forecast and Analysis:
+1.	Correlation Between Weather Conditions:
+•	The correlation heatmap shows a very low correlation between temperature and wind speed (0.18), meaning these two factors have little direct interaction. Both variables, however, are independently significant when assessing flight delays. Precipitation data was not available or correlated in this plot, which may need further review to determine its impact on flight operations.
+![correlation_weather_coniditions](https://github.com/user-attachments/assets/b7505f3a-43e4-43dc-9f4f-2390c33da008)
+
+2.	Wind Speed Impact on Flight Delays/Cancellations:
+•	In the first hypothesis analysis, it is evident that higher wind speeds are linked to increased chances of flight delays or cancellations. When wind speeds exceed 5 m/s, the likelihood of delays or cancellations increases, supporting the hypothesis that wind speed is a critical factor in aviation disruptions.
+•	Lower wind speeds (below 4 m/s) show negligible effects on delays, indicating that flight operations remain largely unaffected by mild winds
+![hypothesis_1](https://github.com/user-attachments/assets/8f2dbc0a-de5b-4d72-8227-a0e373a159d1)
+
+3.	Precipitation's Influence on Delays:
+•	The second hypothesis examined precipitation and its relationship with flight delays/cancellations. The scatter plot indicates very little to no correlation between precipitation and the chances of delays in the observed data. This could suggest that while precipitation (e.g., rain) may disrupt ground operations or cause delays in specific cases, it is not a dominant factor for widespread flight cancellations or delays across these airports.
+![hypothesis_2](https://github.com/user-attachments/assets/15e12468-0677-46dc-8cd6-79422ea2f6d9)
+
+4.	Temperature's Impact on Flight Delays/Cancellations:
+•	The third hypothesis analyzed the relationship between temperature and the likelihood of delays. Similar to wind speed, there seems to be a relationship between higher temperatures and increased delays or cancellations, particularly when temperatures reach the 16°C range. The spread of data suggests that temperature extremes (whether too low or too high) may cause operational challenges leading to delays.
+![hypothesis_3](https://github.com/user-attachments/assets/ebc5cf9e-7e60-4f1e-8df1-64564f28ee6e)
+
+In summary, wind speed and temperature are the most influential weather factors affecting flight delays and cancellations. Precipitation appears to have a limited effect in this dataset, but further analysis with more diverse weather conditions might reveal a different relationship. Seasonal planning and operational flexibility will be key for mitigating the impact of weather on flight operations.
 
 ##
 
