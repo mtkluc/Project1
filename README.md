@@ -104,17 +104,7 @@ Key Findings
 Flight Availability: The analysis identifies which dates have available flights, helping travelers choose optimal travel days.
 Airline Pricing: Comparing prices across airlines allows travelers to identify which airlines offer the most cost-effective flights.
 
-Linear Regression Analysis of Flight Prices (Sydney to Los Angeles, December 2024)
-Overview
-A linear regression was conducted to examine the relationship between flight prices and departure dates for December 2024 on the Sydney to Los Angeles route. This analysis helps identify pricing trends.
 
-Key Findings
-Trend: The regression analysis reveals an upward trend in flight prices, suggesting that prices increase as the departure date approaches.
-Implications: This upward trend may reflect rising demand during peak travel periods. Travelers can benefit from booking early to secure better prices.
-Visualization
-A scatter plot with a regression line was used to visualize the relationship between departure dates and flight prices. Individual flight prices are shown as scatter points, while the regression line highlights the overall trend.
-Findings:
-To avoid higher prices as departure dates approach, travelers should consider booking flights early. Understanding this trend can lead to better travel planning and budgeting.
 ![Average_Flight_Prices_Dec24_By_Airline](https://github.com/user-attachments/assets/887b155f-d1f0-4001-b731-54fd582e527e)
 
 #Flight Prices from Sydney to LosAngeles in Dec 2024
@@ -127,9 +117,18 @@ Flight prices range widely from around 1,000 AUD to over 7,000 AUD across differ
 Regression Line (Red Line):
 The red line represents the trend of flight prices as departure dates progress through December.
 The line shows a slight upward trend, suggesting that, on average, flight prices tend to increase as the departure date approaches.
+Linear Regression Analysis of Flight Prices (Sydney to Los Angeles, December 2024)
+Overview
+A linear regression was conducted to examine the relationship between flight prices and departure dates for December 2024 on the Sydney to Los Angeles route. This analysis helps identify pricing trends.
 
+
+Visualization
+A scatter plot with a regression line was used to visualize the relationship between departure dates and flight prices. Individual flight prices are shown as scatter points, while the regression line highlights the overall trend.
 Findings:
-The graph suggests that while there is an overall upward trend in flight prices as the departure date approaches, there is also considerable price variation on any given day. Travelers can benefit from booking earlier in the month when prices appear to be lower and more consistent.
+To avoid higher prices as departure dates approach, travelers should consider booking flights early. Understanding this trend can lead to better travel planning and budgeting.
+Key Findings
+Trend: The regression analysis reveals an upward trend in flight prices, suggesting that prices increase as the departure date approaches.
+Implications: This upward trend may reflect rising demand during peak travel periods. Travelers can benefit from booking early to secure better prices.
 
 
 ![Flight_Prices_Sydney_to_LosAngeles_Dec2024](https://github.com/user-attachments/assets/40ba23ea-5854-4d62-8702-e907fdf43b1d)
