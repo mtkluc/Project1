@@ -155,6 +155,13 @@ Travelers should consider these findings when planning trips to Los Angeles, as 
 
 ![Air_Traffic_Scores_LAX_2018](https://github.com/user-attachments/assets/76a7025f-d966-4377-b3a9-b01ea979729b)
 
+Weather Analysis Based on U.S. Bureau of Transportation Statistics (BTS) Dataset for January 2024:
+
+1.	Monthly Weather-Related Delays by Airport:
+•	The first chart shows a clear difference in the number of weather-related delays across various airports. Dallas/Fort Worth (DFW) experiences the highest number of delays, peaking sharply in May with over 700 delays.
+
+•	Other airports like JFK, LAX, and SFO maintain relatively low and steady levels of weather-related delays throughout the months, with no drastic spikes. This suggests that certain airports are more vulnerable to weather disruptions, possibly due to geographical or regional weather patterns.
+![image](https://github.com/user-attachments/assets/036e8704-c9fa-440c-b9d1-0f5729a915d2)
 
 ##
 
