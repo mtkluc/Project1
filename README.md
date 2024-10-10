@@ -220,7 +220,7 @@ Implications:
 - As temperatures rise, particularly in summer months, airlines should prepare for potential delays or equipment challenges. Ground delays due to heat may cause significant logistical issues, requiring adequate planning for fuel management and passenger comfort.
 - The findings reinforce the need for more granular predictive models to forecast delays based on weather. By integrating precise weather data with operational metrics, airlines can improve resource allocation, minimize delays, and enhance the passenger experience during disruptive weather events.
 # Summary  
-wind speed and temperature are the most influential weather factors affecting flight delays and cancellations. Precipitation appears to have a limited effect in this dataset, but further analysis with more diverse weather conditions might reveal a different relationship. Seasonal planning and operational flexibility will be key for mitigating the impact of weather on flight operations.
+Wind speed and temperature are the most influential weather factors affecting flight delays and cancellations. Precipitation appears to have a limited effect in this dataset, but further analysis with more diverse weather conditions might reveal a different relationship. Seasonal planning and operational flexibility will be key for mitigating the impact of weather on flight operations.
 
 ##
 
